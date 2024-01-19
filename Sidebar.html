@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sidebar</title>
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/js/all.js">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="sidebar">
+    <div class="sidebar-top-wrapper">
+      <div class="sidebar-top">
+        <a href="#" class="logo__wrapper">
+          <img src="logo/20240103_160949.png" alt="Logo" class="logo-small">
+          <span class="hide company-name">
+            Maihan code
+          </span>
+        </a>
+      </div>
+      <button class="expand-btn" type="button">
+        <i class="fa fa-angle-left" style="color: white;"></i>
+      </button>
+    </div>
+    <div class="search__wrapper">
+      <i  class="fa-solid fa-magnifying-glass"></i>
+      <input type="text">
+    </div>
+    <div class="sidebar-links">
+      <ul>
+        <li>
+          <a href="#dashboard" title="Dashboard" class="tooltip">
+            <i class="fa-solid fa-bars"></i>
+            <span class="link hide">Dashboard</span>
+            <span class="tooltip__content">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#market-overview" class="tooltip">
+            <i class="fa-solid fa-money-bill-trend-up"></i>
+            <span class="link hide">Market Overview</span>
+            <span class="tooltip__content">Market Overview</span>
+          </a>
+        </li>
+        <li>
+          <a href="#analytics" title="Analytics" class="tooltip">
+            <i class="fa-solid fa-chart-pie"></i>
+            <span class="link hide">Analytics</span>
+            <span class="tooltip__content">Analytics</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#reports" title="Reports" class="tooltip">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span class="link hide">Reports</span>
+            <span class="tooltip__content">Reports</span>
+          </a>
+        </li>
+        <li>
+          <a href="#coding" title="Coding" class="tooltip">
+            <i class="fa-solid fa-code"></i>
+            <span class="link hide">Coding</span>
+            <span class="tooltip__content">Coding</span>
+          </a>
+        </li>
+        <li>
+          <a href="#settings" title="Settings" class="tooltip">
+            <i class="fa-solid fa-gear"></i>
+            <span class="link hide">Settings</span>
+            <span class="tooltip__content">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#notifications" title="Notifications" class="tooltip">
+            <i class="fa-solid fa-bell"></i>
+            <span class="link hide">Notifications</span>
+            <span class="tooltip__content">Notifications</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar__profile">
+      <div class="avatar__wrapper">
+        <img class="avatar" src="ourimg/20210909_145500.jpg" alt="Joe Doe Picture">
+        <div class="online__status"></div>
+      </div>
+      <div class="avatar__name hide">
+        <div class="user-name">Saifuddin</div>
+        <div class="email">Saifuddin@gmail.com</div>
+      </div>
+      <a href="#logout" class="logout hide">
+        <i class="fa-solid fa-right-from-bracket"></i>
+      </a>
+    </div>
+  </nav>
+  <script src="script.js"></script>
+</body>
+
+</html>
